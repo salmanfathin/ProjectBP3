@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/meadow_of_gems"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Meadow of Gems"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This scroll, which seems to be a part of a larger series, belongs to the Jade Chamber's invaluable collection of written works. This volume is a dissertation on Liyue Harbor's economic policy."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="...
+
+\n\nCommerce and trade, like springs and streams, begin with the mountains and end with the seas. The penchant of people is to pursue profit, and when people turn their means to profitable ends, wealth is created. To possess means is to possess power, and to curb the unjust excesses of power, we restrain it with contracts to guide all things to prosper together. The strong should not bully the weak, nor should weakness be despised and strength glorified. Let it be known to all that trade and commerce allows the river of gold to flow unimpeded along its natural course — this is the just and upright way.
+
+\n\nSome say: There are those who lose their jobs and have no reliable source of food, nor a roof over their heads, they toil in vain in their barren fields. All the while, the wealthy merchants' residences overflow with gold and jade. What justice and uprightness is this?
+
+                \n\nThis question is devoid of insight. Like the waves that face off against the golden sands of the shoreline, the pursuit of profit topples much of what stands in its way, and like the rapids that run in the valleys, it is unrelenting. Thus those in poverty will not stay poor forever, just as the wealthy shall not hold onto their riches for eternity — but the treasury must always be filled for the nation to remain peaceful and prosperous.
+
+                \n\nHence, it is the proper way of things to eschew prohibition, expand the economy, and reform the government. It is easy to succumb to complacency in the matter of aid, but this must not become the trend and should be curtailed. The Millelith should be expanded to pacify unrest, both the bandits at our borders and the citizens who reside within them.
+
+                \n\n...
+
+                \n\nThough Rex Lapis enjoys immortality, mortals require provisions and preparation to be free of worry. This grand plan charts the course that will lead us, slowly but surely, to Liyue's longevity and the people's prosperity. The task of reform is one that should be undertaken with patience, we cannot make rash, demands lest we overlook other concerns. Just as one who carves by candlelight patiently waits for the jade to take shape, so will it take time for the myriad affairs of Liyue to be gradually settled."
+                    android:id="@+id/text1"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/handy_handbook_of_hilichurlian"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Handy Handbook of Hilichurlian"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A handbook of Hilichurlian written by the folklorist Ella Musk, though its practical use has yet to be tested in the field."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dedicated to my heir and granddaughter, Ella. In our family's history, she will most likely be the most eccentric but cutest Ella Musk.
+\n\nThis handy handbook can only offer some basic assistance in situations where you urgently need to communicate in Hilichurlian (this book is for reference only and cannot be held responsible for any consequences of its use).
+\n\nIf you wish to learn Hilichurlian, please use a standard textbook such as my next introductory book.
+\n\nGreetings, Etiquette:\n\n
+Da/Dada\n
+1. Good/Very good.\n
+2. Casual affirmation when conversing, such as, Ah, okay.\n
+3. Very, completely, most.\n
+Note: Dada upa means very tall/large mountain.\n\n
+Ika ya/Ika yaya/Ya ika/Yaya ika\n1. A bad person/Bad people!\nNote: If you hear hilichurls shout these words and you are confident in yourself, give them a wallop. Otherwise, run.\n\n
+Muhe\n1. Like, want.\nNote: You will not generally hear hilichurls say that they like you, so translating this as want is sufficient.
+\n\nUseful Phrases:
+\n\nGusha\n1. Vegetables, grasses, fruits. Disliked things.\nNote: Aside from eating plants, mosi gusha can also express unhappiness.
+If a hilichurl says Gusha to you, you must use their tone of voice to determine if they want fruits, rice, or wheat, or if they are dissatisfied.
+\n\nMita
+\n1. Meat, delicious foods. Liked items.
+\nNote: In movo lata mita / Mita in movo lata / Mita movo lata refers to meat in the water — I believe that even you can figure that one out, little Ella.
+\n\nUpano
+\n1. Difficult to explain, please see note.
+\nNote: This word is affixed to nouns and describes an upper direction, height, or flight. It can indicate flying insects, birds, clouds, patrolling knights, a small companion sent flying by a larger hilichurl. In short, this word is difficult to explain.
+\n\nCeli
+\n1. Hot. Something that is hot. Fire.
+\n2. Occasionally sun; Celi upa without upa can also mean sun.
+\nNote: Celi lata is an unusual figure of speech as it implies both cold and heat.
+\nThis phrase generally refers to things that emit light but not heat.
+\nFor example, Celi lata gusha is Small Lamp Grass,
+\nAnd Celi lata can describe things such as fireflies, stars, or the moon.
+\n\nKucha gusha/Unu gusha
+\n1. Seed.
+\nNote: It may be hard to believe that I would list such a word. Hilichurls do not specifically practice farming, but they have a habit of stockpiling seeds. Sometimes when they are in a good mood, they will find a place and bury their seeds. Kucha means small, and carries a slightly contemptuous connotation in Hilichurlian. Unu is the number one and is a holy word that embodies the hilichurls' concept of gods and the origin of life. Both of these terms can be used to describe a seed, which is fascinating.
+\nBy the way, Du is two, Unu du is three, and Dudu is four. Can you guess what five is?
+\nThe correct answer is Mani, which also means hands or physical labor.
+\n\nSada
+\n1. Solid, hard.
+\nNote: In Hilichurlian, Upa sada means that you are prepared to do something.
+\n\nBoya
+\n1. Used with certain words to denote colors.
+\nNote: According to my tests, Celi boya is red, Gusha boya is green, Lata boya is blue, Nini boya is white, Nunu boya/Sama boya are black, and Unu boya is yellow.
+\n\nTime and Directions:
+\n\nAba mosi dada
+\n1. From waking until lunch.
+\n\nUnta mosi dada
+\n1. The wonderful time from lunch till just before sunset.
+\n\nMosi aba nunu
+\n1. From after sunset until late night.
+\n\nUnta nunu
+\n1. Late night.
+\n\nDu ya zido dala?
+\n1. Where did this thing go?
+\nNote: After some thought, I have decided to omit Hilichurlian directional words from this handbook. Hilichurls do not have absolute directions, so their directional speech is relative. However, the subject in their responses depends on their attitude towards you. If they like you, they will speak from your point if view. If not, they will use themselves as the frame of reference.
+\nThe most recommended method is to obtain a map, ask them this question, and have them identify the location on the map."
+                    android:id="@+id/text2"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

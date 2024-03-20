@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/the_life_of_mouun_the_shrine_maiden"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="The Life of Mouun The Shrine Maiden"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For the people of Watatsumi, the legends of the Archon War are always filled with bitterness. Many of these millennia-old folksongs tell of a shrine maiden by the name of Mouun, who once rode upon the back of a sea monster, following the Great Serpent unto a tragic moving end."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The shrine maiden Mouun was born to the Yuna Clan. This clan was one of the great houses that first followed their Omikami out into the sunlight, and is still known today for their traditional talent in whalesongs and their closeness with all marine life. Mouun entered Sangonomiya Shrine at a young age and would learn the etiquette and ritual arts of the Watatsumi shrine maidens, history, governance, and the island folk-tunes. Her younger twin sister Ayame, who in later days would be known as Umigozen, was a female diver, making a living through collecting pearls.
+                \n\nBy the time news that the Shogunate had unified all the Inazuman islands reached Watatsumi, Mouun and Ayame were already quite famous among the island's people. In the folk-tunes that still persist till today, Mouun was a wise and gentle soul who helped to steer the people away from meaningless conflict, while Ayame was valiant and cheerful, her power sufficient to wrestle against fierce sea creatures.
+
+                \n\nWhen Watatsumi Omikami ceased in his hesitation and embarked on that hopeless eastern expedition, Sangonomiya's first navy was entrusted by the then-Divine Priestess to Mouun and her sister. This was also the beginning of Mouun's association with the giant whale named Daikengyou.
+
+                \n\nLegend has it that Daikengyou was a huge blind whale that had lived for five hundred years and four hundred years before that. The dark depths of the ocean floor were its home, and the fishes of the deep and the moonglow-beauteous jellyfish were its faithful servants. Five hundred narwhals guarded its left flank and five hundred humpback whales played music to its right. Some folk-tunes claim that it could have swallowed ten coral islands in one gulp before spitting out five skerries in its deep, satiated slumber.
+
+                \n\nEven amongst those of the Watatsumi people who were skilled in whalesong, none had faced this titan and returned whole to tell the tale. But at the Divine Priestess' direction, Mouun dived deep into the whale's phosphorescent palace just as the moon rose high enough to pierce the ocean mists. None knew how Mouun persuaded Daikengyou to join her. But on the third moonrise after her departure, when the waves drew back from the shore, the people witnessed Daikengyou surface from the tranquil ocean, shimmering with silver light as it bore Mouun on its back.
+
+                \n\nLater, Daikengyou and its marine courtiers would follow Mouun and her sister into battle at Omikami's side, though the battle ultimately and inexorably went ill... Mouun made to retreat when she heard that Omikami and Touzannou had been slain together, but she was ambushed by the tengu Sasayuri's subordinates en route and was herself slain together with Daikengyou the mighty whale, their remains captured by the Shogunate. As for her sister, Umigozen Ayame, she disappeared into the blood-red ocean after a valiant stand, never to be seen again."
+                    android:id="@+id/text1"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

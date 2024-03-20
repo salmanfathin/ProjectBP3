@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/sangonomiya_chronicles"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Sangonomiya Chronicles"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desbuku1"
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TEXT"
+                android:id="@+id/text"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sangonomiya was once an ocean abyss, until the Great Serpent came, forming a vortex with its spiral movements, and fashioning the coral into an island. Thus the people of Sangonomiya named their island Watatsumi, meaning god of the sea, for the Great Serpent was their god.
+\n\nThe inhabitants of Watatsumi call themselves the people of the sea and worship the Great Serpent as the Orobashi no Mikoto. On Watatsumi Island, the shrine is the seat of government, and there are no commissioners appointed by the Shogunate. All business, great and small, is conducted by the shrine maidens. The head shrine maiden, or Divine Priestess, is the head of government and ceremonial affairs.
+\n\nDuring the Archon War, Her Excellency the Almighty Raiden Ogosho brought all of Inazuma under Her unified rule. The masses bowed down in fear and awe and each was content with their lot, else they were annihilated. No longer did any covet that to which they were not entitled. The Great Serpent, Orobashi no Mikoto, had always remained in the western region and respected the boundary between itself and the Narukami, and the two had lived in peace. But now, it suddenly transgressed the boundary and invaded the east without warning.
+\n\nThe war was brutal, and brought great suffering to the people. The two sides fought bitterly on what is now known as Yashiori Island, with many casualties and injuries on both sides. Her Excellency's cherished tengu general, Sasayuri, was among those who lost their lives. Finally, the Great Serpent was slain by the Ogosho where its remains now lie on Yashiori Island.
+\n\nThereafter, Sangonomiya sent envoys to announce surrender, and they have recognized the Inazuma Shogunate as the legitimate and supreme ruler ever since."
+                android:id="@+id/text1"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+    </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GenshinLibrary</string>
+    <string name="judul">KNIGHT OF FAVONIUS\n
+        LIBRARY</string>
+    <string name="judul2">KNIGHT OF FAVONIUS LIBRARY</string>
+    <string name="data">data</string>
+    <string name="desbuku1">Historical annals written by the famous Shogunate historian Kujou Michizane,
+        who was known as the Kujou Sanpitsu-Tou, or The Great Calligrapher.
+        It chronicles the history of Watatsumi Island in broad strokes.</string>
+    <string name="textbuku1"></string>
+</resources>

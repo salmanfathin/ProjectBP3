@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gliding_manual"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Gliding Manual"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A guidebook for the ones new to using wind gliders. It also serves as a mandatory reading material to get a gliding license in Mondstadt. It contains all the necessary info any user must know."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Before gliding, make sure you are physically and mentally prepared.
+\n\nMake use of a wind current or elevated terrain for take off.
+\n\nKeep an eye on the wind conditions while gliding to maintain steady balance.
+\n\nPay attention to air traffic conditions and only use a wind glider while the date on your gliding license remains valid.
+\n\nKeep your balance while gliding and retract the wind glider at a safe altitude.
+\n\nDon't drink and glide!
+\n\n--- Violation Cases ---
+\n\nTo make his daughter happy, a Mondstadt civilian named Rudolf jumped from his two-story house, resulting in the fracturing of his left leg and a contusion to his buttocks. This accident could have cost Lily her father. Rudolf received a warning ticket and had his gliding license suspended for one year.
+\n\nA tourist named Alice summoned a wind current at Windrise by blasting an Anemo Slime and used it to quickly climb great heights with a wind glider. The legendary adventurer performed a series of aerobatic stunts in the skies above Mondstadt. Her performance earned a big round of applause from the crowd. However, Jean, the Acting Grand Master of the Knights of Favonius, summoned her and gave her a 10-day detention.
+\n\nTo show off his self-proclaimed lyre playing skills, José the bard tried to play the lyre while using a wind glider and insisted on singing the long sonnet he had just finished.
+\n\nAfter ten minutes of mumbling and unbearable lyre tune, the Six-Fingered José, who is acclaimed as the bard no worse than Barbatos, fell into the wishing well head first before half of the civilians of Mondstadt. Luckily, Barbatos always pays extra care to those with little self-awareness. Although the lyre and the wind glider were badly damaged, the bard himself suffered only minor bruising. José got his gliding license suspended for five years for reckless gliding and had to perform community service for three months."
+                    android:id="@+id/text1"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

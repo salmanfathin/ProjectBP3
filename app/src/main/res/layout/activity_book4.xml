@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/shogun_almighty_reborn_as_raiden_with_unlimited_power"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Shogun Almighty Reborn as Raiden With Unlimited Power"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A popular light novel in Inazuma which tells the story of a mere mortal suddenly turning into the Raiden Shogun. The story is well-received for its novel plot and has inspired many light novelists."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Such is life.
+\n\nMom and Dad always tell me to know right from wrong, but the reality is that we are always choosing the lesser of two evils.
+\nMy girlfriend has decided to break up with me. Not only that, but she also got me fired by telling my supervisor that I have a gambling addiction. Funny how I actually don't have much money to burn because I have protection fees to pay. Failure to do so and anything could happen to my parents.
+\nMy parents, however, think I am a loser who could neither find a serious job nor save up any Mora.
+\nThat's rather ironic, considering who I am doing this for... How is it my fault?
+\nIf it is, I blame myself for my incompetence to find a way out after all the struggles and also my lack of courage to end it once and for all.
+\nForget it. Just hand them the money when they arrive. After that I really need to think about how to earn some Mora, or I'll only have seagrass on the dinner table in the future.
+\nOK, time to choose between the worse and the worst.
+\nA falling blade, or a flying stone — which one is less painful?
+\n\nBzzzzz—
+                \n\nI've been hearing strange noises. What's going on...
+                \nIs the thunder going to strike?
+                \n...
+                \nI wake up not knowing how long I've been unconscious.
+                \nAll I remember is the sharp pain shooting through my body before I passed out.
+                \n\nIt doesn't feel very painful... What!?
+                \n\nI scream upon hearing the voice.
+                \nIs this my voice?
+                \n\nAh, ah—
+                \n\nSo I'm not dreaming.
+                \nI lift my arm and see pale, soft skin covered in exquisite fabric.
+                \nThis is definitely not my body, but to arrive at this conclusion requires a bold logical leap that my brain isn't yet ready to take.
+                \nBecause it simply doesn't make any sense.
+                \nI try to stand up to have a better view of my clothes.
+                \nEvery detail is brimming with luxury. The clothes are befitting of the one holding the highest authority.
+                \n\nCould it be...
+                \nWhere is that brat... Huh? This is... the Raiden Shogun!?
+                \n\nThe very title itself bears weight.
+                \nAh, yes.
+                \nI got reincarnated as the Raiden Shogun.
+                \nThe Kairagi who came to collect debts have already stood in a formation. Although I cannot see their faces, their gestures convey their level of alertness and also fear.
+                \nI've never seen them like this.
+                \n\nCome on! I—It's time to take revenge...
+                \n\nHe trails off — he's scared.
+                \nUnwilling to act like a coward in front of his underlings, the man can't just run, but he is also aware of the consequences.
+                \nMore people are gathering, ten, twenty, fifty...
+                \nPerhaps they think their numbers could make a difference.
+                \nBut the mortals' idea of outnumbering simply does not apply to the Raiden Shogun, the wielder of divine powers.
+                \n\nLet me try my blade with you.
+                \n\nI take a deep breath, focus my mind, and adopt the fighting stance.
+                \nMy blade shall fall, my destiny, rewritten.
+                \n\nMusou...
+                \n...
+                \nWait a moment.
+                \n\nHow do I unleash Musou no Hitotachi?"
+                    android:id="@+id/text1"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

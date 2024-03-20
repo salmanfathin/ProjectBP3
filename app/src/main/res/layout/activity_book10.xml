@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/judul2"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:id="@+id/judul"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/buku1"
+            android:padding="7dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/thousand_years_of_loneliness"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Thousand Years of Loneliness"
+                android:layout_marginTop="5dp"
+                android:textSize="21dp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION"
+                android:id="@+id/des"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The beginning of the Springvale Hunter's tragic fantasy journey. Where did misfortune first befall him? What marks the start and finish of the 1000-year journey of loneliness? Let this first volume of 1000 Years of Loneliness be your guide through the fantastical fog that is the life of Gothson."
+                android:id="@+id/desbook"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"
+                android:textAlignment="center"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/costum_edittext">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TEXT"
+                    android:id="@+id/text"
+                    android:textSize="17sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Many years later, when Gothson's ankle would become trapped in the same unlucky beast trap he had laid, he must have recalled the afternoon when his father had taken him into the city to take part in Ludi Harpastum.
+
+\n\nGothson's whole life was, without a doubt, unfortunate. But he could never quite recall when his misfortunes had begun. He spent his childhood in Springvale, under the protection of the spring fairy. Indeed, all the hunters lived peaceful and carefree lives.
+
+\n\nWhen Gothson was seven summers old, his father took him to Mondstadt to watch the circus at Ludi Harpastum. This was the first time Gothson had entered the city in his life. He was held spellbound by the aromas of sweets and roasted meats, the brilliant lights and colored paper, the clowns who trained wild boars, and the magicians and their tricks.
+
+\n\nIn his dazzling childhood memories, Gothson dimly saw his father walking into the reveling crowds, passing through an archway marked with the words Pile Em Up Contest, and slowly moving further away from him. But his attention was drawn to the shining fairy of the spring.
+
+\n\nPerhaps he came to understand in his later years that the spirit at the festival was no more than an actor paid 20 Mora a day, but in his young mind, that sight was always one full of fantastical imagination.
+
+\n\nGothson was lulled to sleep by the spring fairys stories, and far abroad did he wander and adventure in his boundless dreams. In an adventurer's dream, he saw rainbow jam pour forth from the mouth of an ancient relief. Gothson was about to step up and partake of it, when his dream was shattered by the sound of a fracas.
+
+                \n\nRun! His father's panicked, pudgy face, smeared all over with fruit juice and meat sauce, dominated his vision.
+
+                \n\nOver his shoulder, Gothson could see a towering stack of roasted meat under a glowing red light, tottering and trembling as it bent his way amid the horrified cries of the crowd.
+
+                \n\nIn his flight, Gothson's father knocked a fat lady over, and threw his own hip. At once he fell, his full weight collapsing upon his son. Then, the leaning tower of roasted meat collapsed to echoing screams...
+
+                \n\nThe Knights of Favonius took three days to finally clear up the roast meat, vegetables, food items, and other odds and ends that had been scattered all around the square—not to mention carry off those who had gotten a little too out of their gourds. From then on, they were forced to declare, all future Ludi Harpastums would have to be held outside the city.
+
+                \n\nSo it was, then, that Gothson's house was short two hunters and had two sick people added to their number, all in one night.
+
+                \n\nWhat did they get for it? A gold-plated champion's medal—two days late, to boot."
+                    android:id="@+id/text1"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
